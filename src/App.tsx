@@ -9,6 +9,7 @@ import {TsConvertTestComponent} from './ts-convert/ts-convert-test-component';
 
 class App extends Component {
   render() {
+    console.log('hoge');
     return (
       <>
         <MaskTextComponent/>
